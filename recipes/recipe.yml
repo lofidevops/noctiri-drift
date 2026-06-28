@@ -15,7 +15,7 @@ modules:
   - type: dnf
     repos:
       files:
-        - https://github.com/terrapkg/packages/raw/main/repos/terra-fedora.repo
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
     install:
       packages:
         - terra-release
